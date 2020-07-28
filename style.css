@@ -1,0 +1,42 @@
+html {
+	box-sizing: border-box;
+	font-family: Roboto;
+	font-size: 18px;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 20px;
+	place-items: center center;
+}
+form {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+}
+ul {
+	padding: 0;
+	list-style: none;
+}
+li input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+input {
+	width: 20rem;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	border: solid 1px lightgrey;
+}
+
+button {
+	padding: 0.5rem 1rem;
+	background-color: lightsalmon;
+	color: white;
+}
